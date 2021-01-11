@@ -1,0 +1,203 @@
+#navigacija li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 15px tahoma;
+    color:white;
+    border: tomato 1px solid;
+
+    margin: auto 1px;
+    
+
+}
+
+
+#blue{
+    color: blue;
+    background: chartreuse;
+    border: chocolate 1px solid;
+    text-shadow: black 30px;
+
+}
+
+.red{
+    color: red;
+}
+
+
+p[ime] {
+    color: green;
+}
+
+p[ime="paragraf"]{
+    color: hotpink;
+}
+
+#izgled{
+    border: 1px solid black;
+    width: 1200px;
+    height: 1700px;
+    margin: 20px auto;
+    text-align: left;
+/* da se stranica prikazuje bez obzira na format */
+    max-width: 1000px;
+    display: "-webkit-box";
+    -webkit-box-orient: vertical;
+    -webkit-box-flex:1 ; /*fleksibilni prilagodjavaju se stranicu*/
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font: bold 20px tahoma;
+
+}
+
+h2{
+    font: bold 15px tahoma;
+}
+
+body{
+    text-align: center;
+
+    
+    display:"-webkit-box";
+    width: 100%;
+    -webkit-box-pack: center;
+}
+
+#naslov{
+    background: -webkit-linear-gradient(black,silver); 
+    /*ovo sluzi za miks 2 boje u jednu*/
+    border: 4px solid blue;
+    padding: 20px   ;
+    color: white;
+
+
+}
+
+#navigacija{
+    background: blue;
+    color: black;
+    border: black 1px;
+
+
+}
+
+
+
+#centriranjenaslova{
+    text-align: center;
+    height:10px;
+
+}
+#glavnidio{
+    float: left;
+    width: 750px;
+    margin: 2px;
+    border: grey 1px solid ;
+
+    -webkit-box-flex: 1;
+    padding: 3px;
+}
+
+
+#glavnidio:hover{
+    -webkit-transform:rotate(45deg);/*rotacija*/
+}
+
+
+#novosti{
+    float: right;
+    background: lightseagreen;
+    width: 180px;
+    height: 90px;
+   position: absolute;
+   left: 1200px;
+    border: black 1px;
+    padding: 3px;
+    margin: auto;
+    -webkit-border-radius: 15px;
+/*webkit border da mi uglovi budu zakrivljeni*/
+    -webkit-box-shadow: "rgba" (110,110,110);
+/*webkit border da mi uglovi budu zakrivljeni*/
+}
+
+#odjeljak2{
+    float: left;
+    margin-left: auto;
+    width: 750px;
+    border: 1px solid pink;
+
+    -webkit-webkit: border radius 10px;
+    opacity: 0,6;
+/*kucanje eleemnata za animiranje*/
+
+-webkit-transition: "-webkit-transform 2s, opcity 2s. bacground 2s";
+
+
+
+    -webkit-box-flex: 1;
+    
+
+}
+
+#odjeljak2 :hover{
+    -webkit-transform: rotate(360deg) ;
+    opacity: 1;
+    background: lightblue;
+    font: 20px solid black;
+}
+
+#footer3{
+    clear: both;
+    
+    text-align: end;
+    padding: 5px;
+    border-top: 2px solid green;
+
+}
+
+
+article{
+    background: pink;
+    border: 1px black solid;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+#footer1{
+text-align: right;
+}
+
+#novi_div{
+    display: "-webkit-box";
+    -webkit-box-orient: horizontal;
+
+}
+
+#naslov2{
+    border: 1px solid black;
+    display: "-webkit-box";
+    -webkit-box-orient: horizontal;
+}
+
+#naslov3{
+    background-color: brown;
+    border:black 1px;
+}
+
+#video{
+    position: absolute;
+    top: 980px;
+    left: 450px;
+
+}
+
+
+
+
+
