@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script type="text/javascript" src="popup.js"></script>
+
+<link rel="stylesheet" src="redcross.css">
+
+</head>
+<body>
+<form action="logiranje.php" method="POST"></form>
+
+<!--navigacija-->
+<nav aria-label="You are here:" role="navigation">
+    <ul class="breadcrumbs">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Aktivnosti</a></li>
+      <li><a href="#">Klub 25+</a></li>
+      <li><a href="#">OSnažena</a></li>
+     
+    </ul>
+  </nav>
+
+<!--navigacija-->
+
+<div class="row">
+    <button class="success button">Crveni križ-Sisak</button>
+    <button class="alert button">Crveni križ Zagreb</button>
+    <button class="secondary button">Crveni križ Osijek</button>
+    <button class="button disabled">Crveni križ Bos.Šamac</button>
+
+    <a href="#" class="button">Članak od dobrovoljnom darivanju</a>
+    <a href="#" class="button">RED CROSS ITALIA</a>
+    <a href="#" class="button">UNICEF </a>
+
+    <input type="text" placeholder="Search..">
+
+  </div>
+
+  <h3>Pretplatite se na <small>Newslatter</small></h3>
+  <span class="input-group-label">E-mail @</span>
+<input type="email" class="input-group-field" >
+<input type="submit" value="Submit" class="button">
+
+
+<h1><small>Darivatelj/ca krvi</small> </h1>
+Ime: <input type="text" name="username" maxlength="16" placeholder="Unesite vaše ime"><br>
+Prezime : <input type="text" name="lastname" maxlength="20" placeholder="Unesite vaše prezime"><br>
+OiB : <input type="text" name="lastname" maxlength="20" placeholder="Oib"><br>
+E-mail: <input type="text" name="lastname" maxlength="20" placeholder="E-mail" ><br>
+Kontakt : <input type="text" name="lastname" maxlength="20" placeholder="Broj mobitela"><br>
+Krvna grupa : <input type="text" name="lastname" maxlength="3" placeholder="B,A,B+,-0..."><br>
+Barkod: <input type="password" name="Bar_kod" ><br>
+
+
+<select>
+    <option>ODABERI SPOL</option>
+    <option>Muškarac</option>
+    <option>Žena</option>
+</select>
+
+
+<fieldset class="fieldset">
+<legend>Anketa</legend>
+
+<input type="checkbox"><label>Prvi puta dajem krv </label>
+<input type="checkbox"><label>ANEMIČAN/NA</label>
+<input type="checkbox"><label>Boravili van države u zadnja 3 mj</label>
+<input type="checkbox"><label>Alerigija</label>
+
+</fieldset>
+
+<br>
+<br>
+<label>Slika knjižece o davanju krvi</label>
+<label for="fileUpload" class="button">Slika Donatorske Knjižice</label>
+<input type="file" id="fileUpload" class="show-for-sr">
+<hr>
+
+<p>AKO SE ŽELITE REGISTRIRATI</p>
+<input type="text" placeholder="Koriničko ime">
+<input type="password" placeholder="Lozinka" maxlength="16">
+<input type="button" value="Registruj se">
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+<!--podnozje-->
+
+<nav aria-label="Pagination">
+    <ul class="pagination">
+      <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
+      <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+      <li><a href="#" aria-label="Page 2">2</a></li>
+      <li><a href="#" aria-label="Page 3">3</a></li>
+      <li><a href="#" aria-label="Page 4">4</a></li>
+      <li class="ellipsis" aria-hidden="true"></li>
+      <li><a href="#" aria-label="Page 12">12</a></li>
+      <li><a href="#" aria-label="Page 13">13</a></li>
+      <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+    </ul>
+  </nav>
+</body>
+
+</html>
